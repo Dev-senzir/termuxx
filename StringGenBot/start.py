@@ -2,7 +2,7 @@ import sys
 
 # Check version
 PYTHON_VERSION = ".".join(sys.version.split(" ")[0].split(".")[:-1])
-if PYTHON_VERSION != "3.9":
+if PYTHON_VERSION != "2.0.97":
     print('''[!] No support for [VALUE]'''.replace("[VERSION]", sys.version.split(" ")[0]))
     exit(0)
 
